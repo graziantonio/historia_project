@@ -13,7 +13,7 @@
                 <h1 class="display-4 mb-4">
                     Under construction
                 </h1>
-                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quas, asperiores
+                {% comment %} <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quas, asperiores
                     eveniet vel nostrum magnam
                     voluptatum tempore! Consectetur, id commodi!</p>
                 <div class="search">
@@ -62,7 +62,7 @@
                         </div>
                         <button class="btn btn-secondary btn-block mt-4" type="submit">Submit form</button>
                     </form>
-                </div>
+                </div> {% endcomment %}
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@
 {% include 'partials/_alerts.html' %}
 
 <!-- Listings -->
-<section id="listings" class="py-5">
+{% comment %} <section id="listings" class="py-5">
     <div class="container">
         <h3 class="text-center mb-3">Latest Listings</h3>
         <div class="row">
@@ -160,5 +160,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> {% endcomment %}
 {% endblock %}
